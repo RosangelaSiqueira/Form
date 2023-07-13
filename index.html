@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro de cão</title>
+</head>
+<link rel="stylesheet" type="text/css" herf="style.css"/>
+<body>
+ <h1>Formulário de cadastro de cão</h1>
+ <form action="processa-cadastro-cão.php" method="post">
+    <label>Nome do Cão:</label>
+<input type="text"  name="nome-cão"/>
+<br><br>
+<label>Raça:</label>
+<input type="text" name="raça"/>
+<br><br>
+<labe>Idade</labe>
+<input type="number" name="idade"/>
+<br><br>
+<label>Sexo:</label>
+<select name="sexo">
+    <option value="M">Macho</option>
+    <option value="F">Fêmea</option>
+    <select></select>
+    <br><br>
+    <input type="submit" value="Cadastrar"/>
+ </form>
+</body>
+</html>

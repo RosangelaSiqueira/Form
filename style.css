@@ -1,0 +1,39 @@
+<style>
+.cadastro-cao{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    padding:20px ;
+    border:1px solid#ccc ;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.cadastro-cao h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+}
+.cadastro-cao label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cadastro-cao input{
+    width: 100%;
+    padding:10px;
+    border: 1px solid#ccc;
+    margin-bottom: 10px;
+}
+.cadastro-cao button{
+    width: 100%;
+    padding: 10px;
+    background-color:#034f81 ;
+    color:#fff ;
+    font-weight:bold ;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+
+}
+</style>
